@@ -41,7 +41,12 @@ class ViewController: UIViewController {
   
   @IBAction func readFileButton(_ sender: UIButton) {
     
-    directoryContents.text = readFile(filesInDirectory.first!)
+    if let fName = filesInDirectory.first {
+      directoryContents.text = readFile(fName)
+    } else {
+      directoryContents.text = "Contents of directory:\nEmpty"
+    }
+    
   }
   
   @IBAction func deleteFileButton(_ sender: UIButton) {
