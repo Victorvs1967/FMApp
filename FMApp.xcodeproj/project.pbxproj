@@ -54,14 +54,46 @@
 		D32F08BF22AC0B5200D38B61 /* FMApp */ = {
 			isa = PBXGroup;
 			children = (
-				D32F08C022AC0B5200D38B61 /* AppDelegate.swift */,
-				D32F08C222AC0B5200D38B61 /* ViewController.swift */,
+				D32F08D522AC0C2F00D38B61 /* Models */,
+				D32F08D422AC0C2600D38B61 /* Views */,
+				D32F08D222AC0C0100D38B61 /* Support */,
+				D32F08D322AC0C1500D38B61 /* Controllers */,
 				D32F08C422AC0B5200D38B61 /* Main.storyboard */,
-				D32F08C722AC0B7000D38B61 /* Assets.xcassets */,
-				D32F08C922AC0B7000D38B61 /* LaunchScreen.storyboard */,
 				D32F08CC22AC0B7000D38B61 /* Info.plist */,
 			);
 			path = FMApp;
+			sourceTree = "<group>";
+		};
+		D32F08D222AC0C0100D38B61 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D32F08C022AC0B5200D38B61 /* AppDelegate.swift */,
+				D32F08C722AC0B7000D38B61 /* Assets.xcassets */,
+				D32F08C922AC0B7000D38B61 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D32F08D322AC0C1500D38B61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D32F08C222AC0B5200D38B61 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D32F08D422AC0C2600D38B61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D32F08D522AC0C2F00D38B61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
